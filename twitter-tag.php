@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Twitter Tag
-Plugin URI: http://www.paulmc.org/whatithink/wordpress/plugins/twitter-tagging/
+Plugin URI: http://www.paulmc.org/whatithink/wordpress/plugins/twitter-tag/
 Description: Link to a users Twitter page when you include a Twitter @username in a post and tweet the user that they have been tagged.
 Version: 1.0
 Author: Paul McCarthy
