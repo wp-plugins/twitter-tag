@@ -169,7 +169,7 @@ function pmcSendTweet($pmcID) {
 			curl_setopt($pmcCurl, CURLOPT_HTTPAUTH, CURLAUTH_ANY);
 			curl_setopt($pmcCurl, CURLOPT_USERPWD, "$pmcUser:$pmcPass");
 			curl_setopt($pmcCurl, CURLOPT_URL, $pmcTweetURL);
-			curl_setopt($pmcCurl, CURLOPT_RETURNTRANSFER, 0);
+			curl_setopt($pmcCurl, CURLOPT_RETURNTRANSFER, 1);
 			curl_setopt($pmcCurl, CURLOPT_POST, 1);
 			curl_setopt($pmcCurl, CURLOPT_POSTFIELDS, $pmcTweetText);
 	
